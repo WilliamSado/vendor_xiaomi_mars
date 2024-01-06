@@ -6,24 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/mars
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/mars/proprietary/system/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.camera.common@1.0.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libSNPE.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc++_shared.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libdoc_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libdoc_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo_c++_shared.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhidltransport.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmialgo_ai_vision.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libmicampostproc_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmicampostproc_client.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libmotion_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libmotion_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_c++_shared.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libmotion_photo_mace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_mace.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/libopencl-camera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libopencl-camera.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.dsp@1.0.so \
-    vendor/xiaomi/mars/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
-    vendor/xiaomi/mars/proprietary/system/priv-app/MiuiCamera/lib/arm64/libOpenCL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libOpenCL.so \
     vendor/xiaomi/mars/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/mars/proprietary/system_ext/bin/wfdservice64:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice64 \
     vendor/xiaomi/mars/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -210,35 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07_CN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x07_CN.bin \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/ai_enhance.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ai_enhance.dlc \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/aivsModels1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsModels1 \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/aivsParams:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_moon.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_moon.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_moon_k1a.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_moon_k1a.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele50x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele50x.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele50x_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele50x_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele50x_remosaic.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele50x_remosaic.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_fusion.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_fusion.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_fusion_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_fusion_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_iso100_k1a.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_iso100_k1a.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_k1a.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_k1a.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_tele_remosaic.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele_remosaic.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide2x.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide2x.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide2x_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide2x_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide_fusion.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_fusion.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide_fusion_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_fusion_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide_fusion_remosaic.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_fusion_remosaic.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide_iso100.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_iso100.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/almalence_sr_params_wide_remosaic.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide_remosaic.config \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/alphablend.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/alphablend.bin \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_blue.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_blue.cng \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_masculine.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_masculine.cng \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_neutral.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_neutral.cng \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_nude.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_nude.cng \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_pink.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_pink.cng \
-    vendor/xiaomi/mars/proprietary/vendor/etc/camera/beauty_style_skin_gloss.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_style_skin_gloss.cng \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bokehParams.json \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cache \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
@@ -285,6 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/reid_float.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/reid_float.dlc \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/siq_ocl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/siq_ocl_cache \
+    vendor/xiaomi/mars/proprietary/vendor/etc/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/star_motiontuning.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/star_motiontuning.xml \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/stereo.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/stereo.bin \
     vendor/xiaomi/mars/proprietary/vendor/etc/camera/superiq_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/superiq_model \
@@ -553,7 +507,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/xiaomi/mars/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
     vendor/xiaomi/mars/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/xiaomi/mars/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/xiaomi/mars/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/xiaomi/mars/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
     vendor/xiaomi/mars/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
@@ -750,16 +703,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxifestriping.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamximageformatutils.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxqsatalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxqsatalgo.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxswispiqmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswispiqmodule.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
@@ -781,20 +724,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpege.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmctfengine_stub.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bestats.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_lscv35.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lscv35.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mfnr_t4.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdpc.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libmmhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmhardware.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/xiaomi/mars/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
@@ -1044,7 +977,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.qcom.plugin.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.qcom.plugin.gpu.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.qcom.plugin.offlinepostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.qcom.plugin.offlinepostproc.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.xiaomi.plugin.bodyslim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.xiaomi.plugin.bodyslim.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/camera/plugins/com.xiaomi.plugin.dc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/plugins/com.xiaomi.plugin.dc.so \
@@ -1097,9 +1029,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.feature2.statsregeneration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.statsregeneration.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.settings.kamorta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.settings.kamorta.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.settings.mannar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.settings.mannar.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.settings.sdm865.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.settings.sdm865.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.settings.sm8350.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.settings.sm8350.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qti.stats.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.stats.common.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/com.qualcomm.mcx.distortionmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.distortionmapper.so \
@@ -1183,6 +1112,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libQnnHtpStub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpStub.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libSuperSensorCPU.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorCPU.so \
+    vendor/xiaomi/mars/proprietary/vendor/lib64/libSuperSensorHVX.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorHVX.so \
+    vendor/xiaomi/mars/proprietary/vendor/lib64/libSuperSensorSDK.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorSDK.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libXMFace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libXMFace.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
@@ -1298,6 +1229,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiStereoFactoryRemapBasicLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoFactoryRemapBasicLib.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiStereoFactoryRemapLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoFactoryRemapLib.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiStereoFactoryRemapLib_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiStereoFactoryRemapLib_v2.so \
+    vendor/xiaomi/mars/proprietary/vendor/lib64/libmiai_deblur.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_deblur.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiai_facialrestoration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_facialrestoration.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiai_portraitsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_portraitsupernight.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ai_vision.so \
@@ -1318,19 +1250,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmibokeh_855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_855.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmibokeh_mask.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mask.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmibokeh_mask_dsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mask_dsp.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmiface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiface.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libminziparchive.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminziparchive.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiphone_capture_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiphone_capture_bokeh.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmiphone_preview_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiphone_preview_bokeh.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmiriskmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiriskmanager.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmisecurity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisecurity.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -1339,7 +1264,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr_t4.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libmmhardware.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmhardware.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmodemapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodemapi.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
@@ -1354,7 +1278,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinedump.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
@@ -1455,7 +1378,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoBokeh.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideooptfeature.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
@@ -1464,7 +1386,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwa_opticalzoom_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_opticalzoom_fusion.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwa_opticalzoomfactor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_opticalzoomfactor.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwa_sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_sat.so \
-    vendor/xiaomi/mars/proprietary/vendor/lib64/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi_cert.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwfddisplayconfig_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfddisplayconfig_proprietary.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/xiaomi/mars/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
@@ -1601,7 +1522,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/lib64/vl53l5.hal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vl53l5.hal@2.0.so
 
 PRODUCT_PACKAGES += \
-    MiuiCamera \
     CACertService \
     CneApp \
     IFAAServiceXiaomism8350 \
